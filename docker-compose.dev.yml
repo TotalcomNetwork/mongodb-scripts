@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  db:
+    image: mongo:6
+    ports:
+      - 27019:27017
+      - 27017
+    volumes:
+      - mongodb_scripts_db_data:/data/db
+      - ./:/mongodb-scripts
+    networks:
+        - mongodb_scripts_network
+    hostname: db
+    command: --replSet rs0
+
+
+volumes:
+  mongodb_scripts_db_data:
+
+networks:
+  mongodb_scripts_network:
