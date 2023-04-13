@@ -15,4 +15,5 @@ The scripts require MongoDB database tools installed
 
 ## Scipts
 
-//TODO
+* [Backup remote DB](backup-remote-db/README.md)
+* [Restore remote DB](restore-remote-db/README.md)
