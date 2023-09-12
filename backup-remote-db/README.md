@@ -7,7 +7,7 @@ Create a `.env` file and provide the required variables (check-out the `.env.ref
 Run the script and pass the `.env` file as argument
 
 ```
-.backup-remote-db ".env"
+./backup-remote-db ".env"
 ```
 
 ... wait for the backup to finish.
