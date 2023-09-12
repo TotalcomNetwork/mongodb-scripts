@@ -7,7 +7,7 @@ Create a `.env` file and provide the required variables (check-out the `.env.ref
 Run the script and pass the `.env` file as argument
 
 ```
-.restore-remote-db ".env"
+./restore-remote-db ".env"
 ```
 
 ... wait for the restore operation to finish.
